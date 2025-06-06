@@ -80,12 +80,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<arguments>
-						<argument>raw-string</argument>
-						<argument>password</argument>
-					</arguments>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
