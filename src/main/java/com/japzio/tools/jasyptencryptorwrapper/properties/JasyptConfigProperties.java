@@ -1,4 +1,4 @@
-package com.mayabank.tools.jasyptencryptorwrapper.properties;
+package com.japzio.tools.jasyptencryptorwrapper.properties;
 
 import lombok.Getter;
 import lombok.Setter;

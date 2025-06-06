@@ -1,4 +1,4 @@
-package com.mayabank.tools.jasyptencryptorwrapper;
+package com.japzio.tools.jasyptencryptorwrapper;
 
 import com.mayabank.tools.jasyptencryptorwrapper.properties.JasyptConfigProperties;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
@@ -9,8 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Optional;
 
 @SpringBootApplication
 public class JasyptEncryptorWrapperApplication implements CommandLineRunner {
