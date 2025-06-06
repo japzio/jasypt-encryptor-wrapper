@@ -1,0 +1,9 @@
+jasypt:
+  password: password
+  raw-string: raw-string
+  algorithm: PBEWITHHMACSHA512ANDAES_256
+  key-obtention-iterations: 1000
+  pool-size: 1
+  salt-generator-class-name: org.jasypt.salt.RandomSaltGenerator
+  iv-generator-class-name: org.jasypt.iv.RandomIvGenerator
+  string-output-type: base64
